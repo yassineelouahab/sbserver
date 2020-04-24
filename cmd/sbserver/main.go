@@ -222,7 +222,7 @@ const (
 
 var (
 	apiKeyFlag   = flag.String("apikey", "", "specify your Safe Browsing API key")
-	srvAddrFlag  = flag.String("srvaddr", "localhost:8080", "TCP network address the HTTP server should use")
+	srvAddrFlag  = flag.String("srvaddr", "l178.128.108.199:8080", "TCP network address the HTTP server should use")
 	proxyFlag    = flag.String("proxy", "", "proxy to use to connect to the HTTP server")
 	databaseFlag = flag.String("db", "", "path to the Safe Browsing database.")
 )
